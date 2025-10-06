@@ -2,7 +2,7 @@
 layout: default
 title: Linux Lab
 parent: Tutorials
-nav_order: 3
+nav_order: 4
 ---
 # Linux-Lab (Your Personal Lab for making mistakes and not crying about it)
 ((work from command line for the practice and have the GUI as back up if we get stuck))
