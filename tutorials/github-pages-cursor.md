@@ -6,91 +6,122 @@ nav_order: 1
 ---
 # Github-pages-cursor (Using AI for proper Folder and Pages Formatting)
 
-This tutorial shows using cursor as a method of fast formatting folders and page structures for desired github-pages, while minimizing the common frontmatter errors.
-The example file format below should be updated for yoru specific goals and intents. Then you can provide the content to the AI assistant in you IDE to complete the update.
+This tutorial shows using cursor as a method of fast formatting folders and page structures for mulitple github-pages, while minimizing the common frontmatter errors.
+The example file format below should be updated for your specific goals and intents. Then you can provide the content to the AI assistant in you IDE to complete the update.
 After proper pages are made you can fill in your actual project documentation on each page, and have the IDE-AI check you for formatting errors.
 
 
 **THE FOLLOWING IS AI GENERATED CONTENT BASED ON MY DESCRIPTION OF ACTIONS TAKEN AND ISSUES I FOUND WORKING BETWEEN MULTIPLE INCOMPLETE TUTORIALS**
 
+---
+
+```markdown
+
+# High-Speed Portfolio Setup with an AI-Assisted Workflow
+
+This tutorial documents the modern, efficient process for setting up a professional, two-site digital presence using GitHub Pages and an AI Coder (like Cursor or VS Code with an AI extension). The goal is to move from idea to a perfectly structured, live website in minutes, not hours.
+
+**This is a tutorial for high-speed page and file setup, not content creation.** We leverage AI for the tedious and error-prone task of scaffolding, freeing us to focus on the human-centric work of writing valuable content.
 
 ---
 
-### **Project Tutorial: Building Your Professional Portfolio with an AI-Assisted Workflow**
+### **The Strategy: A Professional Two-Site System**
 
-**Objective:** To efficiently build a free, professional, and fully customizable portfolio website using the "Just the Docs" theme on GitHub Pages. This guide leverages a standard developer workflow (Git, VS Code/Cursor) and introduces an AI assistant to accelerate the tedious initial setup of folders and files, allowing you to focus on creating high-quality project content.
+To maintain a professional image, we separate our polished work from our learning notes.
 
-**A Note on AI Usage:** The goal here is to use AI as a smart tool for **structure and formatting**, not for content creation. Your project descriptions and analyses must be your own work. AI makes the process faster; you provide the substance.
-
-**Skills Demonstrated:** `Git`, `GitHub Pages`, `Markdown`, `YAML`, `AI-Assisted Development`, `VS Code/Cursor`, `CLI`, `Technical Documentation`
-
----
-
-### **Phase 1: AI-Assisted Structuring**
-
-This is where we accelerate the process. Instead of manually creating every folder and file and risking typos in the Front Matter, we will instruct an AI assistant like Cursor to do it for us. This ensures a perfectly formatted structure from the start.
-
-#### **Step 1: Prompting the AI for Structure**
-
-In your IDE (Cursor or VS Code with an AI extension), open a chat window and provide a clear, detailed prompt. The key to a good prompt is to be specific about the file names, folder hierarchy, and the exact Front Matter content.
-
-**The Prompt:**
-
-> **Prompt for AI Assistant:**
->
-> "You are an expert in setting up Jekyll sites with the 'Just the Docs' theme. Based on the project list I provide, please generate the necessary folder and file structure inside my current project directory.
->
-> For each Markdown (`.md`) file, you must create the file with the correct YAML Front Matter to ensure the navigation sidebar is perfectly nested. Do not generate the main content for the pages; use `(Coming Soon)` as a placeholder under the main heading.
->
-> Here is the desired structure:
->
-> 1.  **Top-Level Pages:**
->     *   `about.md` (nav_order: 2)
->     *   `projects.md` (nav_order: 3, has_children: true)
->     *   `contact.md` (nav_order: 5)
->
-> 2.  **'Projects' Main Categories (inside the `projects` folder):**
->     *   `foundations.md` (Parent: Projects, nav_order: 1, has_children: true)
->     *   `cyber-defense.md` (Parent: Projects, nav_order: 2, has_children: true)
->     *   `engineering-and-pentesting.md` (Parent: Projects, nav_order: 3, has_children: true)
->
-> 3.  **Project Pages (nested inside their category folders):**
->     *   Under `projects/foundations/`:
->         *   `linux-lab-and-wireshark.md`
->         *   `python-log-parser.md`
->     *   Under `projects/cyber-defense/`:
->         *   `home-lab-siem-monitoring.md`
->         *   `aws-ec2-hardening.md`
->         *   `python-threat-intel-tool.md`
->     *   Under `projects/engineering-and-pentesting/`:
->         *   `secure-aws-vpc-with-terraform.md`
->         *   `penetration-testing-report.md`
->
-> Remember to correctly set the `title`, `parent`, `grand_parent`, `nav_order`, and `has_children` properties in the YAML Front Matter for every file."
-
-#### **Step 2: Review and Verify**
-After the AI generates the files, quickly review them. Check that the folders are named correctly and that the `parent` and `grand_parent` values in the Front Matter match the `title` of their parent pages exactly. The AI is excellent at this, but a quick human check is always good practice.
+1.  **The Portfolio (The "Museum"):** A curated, employer-facing site (`your-username.github.io`) showcasing only your best, completed projects. This is the link on your resume.
+2.  **The Public Library (The "Workshop"):** A separate, scalable site (`...github.io/Public-Library`) for your notes, tutorials, references, and works-in-progress. This demonstrates your learning process without cluttering your main portfolio.
 
 ---
 
-### **Phase 2: The Human Workflow - Edit, Commit, Push**
+### **Phase 1: Architecture & Planning**
 
-With the tedious structuring done, you can now focus on the most important part: creating the content that represents your skills.
+Before writing a single line of code, we map out the entire file structure for **both** sites. This "Information Architecture" plan will become the blueprint for our AI prompt. Thinking this through first prevents messy refactoring later.
 
-#### **Step 3: Configure and Commit Your Initial Site**
+*Example: We decided on a structure with top-level pages like "About" and "Projects," with nested sub-categories for different project types like "Homelab" and "Software."*
 
-1.  Open the `_config.yml` file. Edit the `title` and `description` to your liking, remembering to wrap any values containing special characters in quotes.
-2.  Save all your files.
-3.  Now, commit this entire initial structure to your repository. Open the integrated terminal:
+### **Phase 2: Local Environment Setup**
+
+1.  **Install Tools:** Install [Git](https://git-scm.com/downloads) and your IDE of choice ([VS Code](https://code.visualstudio.com/) or [Cursor](https://cursor.sh/)).
+2.  **Configure Git:** Open a terminal and tell Git who you are.
     ```bash
-    # Stage all the new files and changes
-    git add .
-
-    # Commit the changes with a clear message
-    git commit -m "feat: Initial site structure and configuration via AI assistant"
-
-    # Push the changes to GitHub
-    git push
+    git config --global user.name "Your Name"
+    git config --global user.email "youremail@example.com"
     ```
 
-By following this AI-assisted workflow, you've dramatically reduced the setup time and eliminated a common source of frustrating errors, allowing you to jump straight into the meaningful work of documenting your projects.
+### **Phase 3: Repository Creation & Cloning**
+
+1.  **Create Repositories on GitHub:**
+    *   **Portfolio Repo:** Create a public repository named **exactly** `your-username.github.io`.
+    *   **Library Repo:** Create a second public repository named `Public-Library`.
+
+2.  **Clone Both Repositories:** In your terminal, navigate to your projects directory and clone both empty repositories.
+    ```bash
+    git clone https://github.com/your-username/your-username.github.io.git
+    git clone https://github.com/your-username/Public-Library.git
+    ```
+
+3.  **Open Workspace:** Open your IDE and add both project folders to your workspace for easy file management.
+
+### **Phase 4: AI-Assisted Scaffolding**
+
+This is the high-speed step. We provide our detailed file map to the AI and instruct it to build the entire structure.
+
+1.  **Craft the Prompt:** A good prompt is specific. It should define the exact folder structure, file names, and the required YAML Front Matter (`title`, `parent`, `nav_order`, etc.) for every single page.
+2.  **Execute the Prompt:** In your AI Coder, instruct it to apply the plan to both project folders. The AI will generate all the necessary folders and placeholder `.md` files with perfectly formatted Front Matter in seconds, a task that would take a human 30+ minutes and likely include typos.
+3.  **Add the Theme:** Instruct the AI to add the "Just the Docs" theme files (`_config.yml`, `Gemfile`, etc.) to both repositories if they weren't created from a template.
+
+### **Phase 5: Configuration & A Critical Subdirectory Fix**
+
+The AI can't know your specific URLs. We must configure the `_config.yml` file for each site manually.
+
+#### **For the Main Portfolio (`your-username.github.io`)**
+The configuration is simple. Edit `_config.yml`:
+```yaml
+title: 'Your Name: Professional Portfolio'
+description: 'A curated collection of my professional projects.'
+url: https://your-username.github.io
+```
+
+#### **A Common Pitfall: The 404 Error on the Second Site**
+After deploying, I encountered a `404 Not Found` error for the `Public-Library` site. This is a classic issue when hosting a Jekyll site in a subdirectory.
+
+**The Problem:** The site's internal links (for CSS, pages, etc.) were pointing to the root domain (`your-username.github.io/style.css`) instead of the correct subdirectory path (`your-username.github.io/Public-Library/style.css`).
+
+**The Fix:** The `_config.yml` for any "Project Site" (one that lives in a subdirectory) requires **two** specific URL parameters: `url` and `baseurl`.
+
+1.  **Open `_config.yml` in the `Public-Library` repository.**
+2.  **Apply the Correct Configuration:**
+
+    **Before (Incorrect):**
+    ```yaml
+    # This causes 404 errors
+    url: https://your-username.github.io/Public-Library
+    ```
+
+    **After (Correct):**
+    ```yaml
+    # This works
+    url: https://your-username.github.io
+    baseurl: /Public-Library
+    ```
+*   **`url`:** Points to your main GitHub Pages domain.
+*   **`baseurl`:** Tells Jekyll that this specific site's root is inside the `/Public-Library` folder.
+
+This simple change allows Jekyll to correctly build all asset and page links relative to the subdirectory, fixing the 404 errors.
+
+### **Phase 6: The Final Push**
+
+With the structure built and configured, we finalize the setup.
+
+1.  **Commit and Push Both Repositories:** In the terminal for each project, run the standard Git cycle.
+    ```bash
+    # In each project's folder...
+    git add .
+    git commit -m "feat: Initial site structure and configuration"
+    git push
+    ```
+2.  **Enable GitHub Pages:** On GitHub, go into the **Settings > Pages** tab for **both** repositories and enable deployment from the `main` branch.
+
+Your two-site system is now live and correctly configured. You can now focus your time on the important work: filling in the placeholder pages with your high-quality project write-ups and learning notes.
+```
