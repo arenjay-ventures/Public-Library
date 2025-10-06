@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Public Library - Knowledge Base
+description: A comprehensive knowledge base containing templates, references, tutorials, and project logs.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://arenjay-ventures.github.io/Public-Library
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Portfolio Repository: https://github.com/arenjay-ventures/arenjay-ventures.github.io
