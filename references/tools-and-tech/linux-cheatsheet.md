@@ -3,7 +3,7 @@ layout: default
 title: Linux Cheatsheet
 parent: Tools & Technology
 grand_parent: References
-nav_order: 6
+nav_order: 7
 ---
 
 # Linux Cheatsheet

@@ -3,7 +3,7 @@ layout: default
 title: Azure Cheatsheet
 parent: Tools & Technology
 grand_parent: References
-nav_order: 11
+nav_order: 12
 ---
 
 # Azure Cheatsheet

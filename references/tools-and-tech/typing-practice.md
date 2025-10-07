@@ -3,7 +3,7 @@ layout: default
 title: Typing Practice
 parent: Tools & Technology
 grand_parent: References
-nav_order: 1
+nav_order: 2
 ---
 
 # Typing Practice

@@ -3,7 +3,7 @@ layout: default
 title: Rust Cheatsheet
 parent: Tools & Technology
 grand_parent: References
-nav_order: 8
+nav_order: 9
 ---
 
 # Rust Cheatsheet
