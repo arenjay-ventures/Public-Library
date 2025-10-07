@@ -2,7 +2,7 @@
 layout: default
 title: Python Resources
 parent: Tutorials
-nav_order: 13
+nav_order: 10
 ---
 
 # Python Resources

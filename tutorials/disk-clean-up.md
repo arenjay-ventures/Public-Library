@@ -1,9 +1,11 @@
 ---
 layout: default
 title: DISK CLEANUP
-parent: references/tutorials
+parent: Tutorials
 nav_order: 1
-##**DISK CLEANUP – Preparing for a media server**
+---
+
+# DISK CLEANUP – Preparing for a media server
 
 ### ** Project Disk Cleanup**
 *   This page detials the tools used for disk management. Most have their own tutorials or directions that update with versions. So instead of re-writing tutorials, I will consolidate what was used along with personal notes on the use regarding issues and utility of the tool.

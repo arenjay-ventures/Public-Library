@@ -2,7 +2,7 @@
 layout: default
 title: Modify Router Bridge
 parent: Tutorials
-nav_order: 5
+nav_order: 8
 ---
 
 # Modify Router Bridge

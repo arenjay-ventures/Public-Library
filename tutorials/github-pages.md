@@ -2,7 +2,7 @@
 layout: default
 title: GitHub Pages
 parent: Tutorials
-nav_order: 2
+nav_order: 4
 ---
 # Github-pages (Your Personal Repo for showing progress)
 
