@@ -1,0 +1,124 @@
+---
+layout: default
+title: Sudo Apt Install Opsec
+parent: Tutorials
+nav_order: 10
+---
+
+# Sudo Apt Install Opsec
+
+This project list is for software and basic tools for operational security.
+---
+### **hidden files exposed:**
+*   Some System files are hidden and not immediately viewable to the user. These steps will expose those files for further review.
+
+**WINDOWS**
+
+STEPS TO COMPLETE: 
+1: Open File Explorer
+2: In the Ellipses menu
+3: Click on Options
+4: Then click on View tab
+5: In the advanced Settings menu UNCHECK the “Hide protected operating system files”
+6: Click Yes, Apply, OK
+*DONE*
+---
+### **pagefile.sys and swapfile.sys**
+*   This file can get very large and is indicative of the computer using a lot of virtual memory. My file was not ridiculously large, but we will check its settings anyways. I recently doubled the available RAM and may be able to adjust the max settings down.
+
+STEPS TO COMPLETE: Disable automatic management:
+1: Open File Explorer, right-click This PC, select Properties, then Advanced System Settings.
+2: Go to the Advanced Tab, click Settings under Performance, and then select the Advanced tab again
+3: Under Virtual Memory, click Change, then uncheck Automatically manage page file size for all drives.
+4: Select your drive, choose Custom Size, and enter manual size.
+Won’t Take Effect until after Reboot.
+
+There is an option to not use a paging file. This is not recommended in general user settings.
+
+**may want to disable for less caching of activities, this may effect performance and even cause issues**
+---
+
+
+
+### **BitLocker Check:**
+*   **BitLocker** BitLocker is full hard disk encryption native to Windows. It requires a Recovery Key, and therefore is often OFF when shipped with a new computer. It must be turned on and a recovery key created by the new user.
+
+I checked on a computer that came with Windows pre-installed and determined BitLocker had never been set up…so these are the steps to set it up.
+
+STEPS TO CHECK AND SET UP:
+1: In windows search, type Manage BitLocker (select it)
+2: In the BitLocker Drive Encryption page, you can see which drive volumes have BitLocker on or not.
+3: Select the Drive you want to Encrypt
+4: Create you recovery key, either save the file, print the key, etc (**KEEP SAFE NEVER LOSE**
+5: Select whether you want to Encrypt used disk space only (for a new computer or drive) OR Encrypt entire drive
+6: Select Encryption mode (explanation is provided)
+7: Select “Run BitLocker system check” (we don’t want a small issue to make us lose access to EVERYTHING)
+8: Computer will Restart
+9: log back in: computer may appear normal, opening BitLocker again it will not say “BitLocker Encrypting” This may take a while if a large drive.
+
+
+### **hiberfil.sys:**
+*   When consolidating hard drive data I came across the VERY large file of hiberfil.sys. This file holds a snapshot of the RAM image for hibernating the computer and allowing a faster start up from where the user left off. This file is NOT encrypted  unless using system drive level encryption such as BitLocker is enabled.
+
+If we are not using the hibernate feature (I don’t) it is a unneeded waste of space for the very large file.
+If we are not using BitLocker on the system drive of the computer, then it is susceptible to extraction from a physical attack.
+We can turn it off and it will automatically delete the file as well. I may turn it back on after hard drives are cleaned up and BitLocker installed.
+
+STEPS TO COMPLETE: 
+1: Open Windows PowerShell as an Administrator
+2: Type the command 
+	powercfg /h off
+
+and press Enter
+
+3: Hibernation will be turned off and the hiberfil.sys file will be automatically deleted.
+### **BitLocker To Go:** TODO FINISH THIS
+*   **BitLocker** BitLocker To Go Provide USB level encyption
+
+STEPS TO CHECK AND SET UP:
+1: In windows search, type Manage BitLocker (select it)
+2: In the BitLocker Drive Encryption page, you can see which drive volumes have BitLocker on or not, you can insert a USB Drive
+3: Select the USB Drive you want to Encrypt
+4: Create you recovery key, either save the file, print the key, etc (**KEEP SAFE NEVER LOSE**
+5: Select whether you want to Encrypt used disk space only (for a new computer or drive) OR Encrypt entire drive
+6: Select Encryption mode (explanation is provided)
+7: Select “Run BitLocker system check” (we don’t want a small issue to make us lose access to EVERYTHING)
+8: Computer will Restart
+9: log back in: computer may appear normal, opening BitLocker again it will not say “BitLocker Encrypting” This may take a while if a large drive.
+---
+
+
+
+### **1. Executive Summary**
+*   **(1-2 sentences)** A high-level pitch of the project. What was the core problem and what was the result?
+*   **Technologies Used:** `List`, `Of`, `Key`, `Technologies`, `Like`, `Python`, `AWS S3`, `Docker`, `Wazuh`
+*   **Project Link:** `[Live Demo](http://example.com)` or `[GitHub Repo](http://github.com/link)`
+
+---
+
+### **2. The Problem & Objective**
+*   **(1 paragraph)** Describe the scenario or challenge you were trying to address. What was the goal? Why was this project necessary or interesting?
+*   *Example: "Standard home routers lack visibility into network threats. My objective was to build a low-cost, centralized security monitoring system for my home lab using open-source tools to detect and analyze potential intrusions in real-time."*
+
+---
+
+### **3. The Implementation & Process**
+*   **(Bulleted list or short paragraphs)** Detail the key steps you took to build the solution. This is where you showcase your technical process. Focus on the "how" and "why" of your decisions.
+*   *Example Step 1: **Infrastructure Setup.** Deployed three Ubuntu Server VMs in VirtualBox, configured with a host-only network to simulate an isolated corporate environment.*
+*   *Example Step 2: **SIEM Installation.** Installed and configured a Wazuh server on the primary monitoring VM, ensuring agent communication ports were correctly firewalled.*
+*   *Example Step 3: **Log Ingestion & Testing.** Deployed Wazuh agents to the target VMs. Generated test traffic using Nmap from a Kali Linux VM to verify that logs were being collected and that basic intrusion detection rules were firing correctly.*
+
+---
+
+### **4. Challenges & Resolutions**
+*   **(1-2 bullet points)** This is a critical section. Describe a specific technical hurdle you faced and how you overcame it. This demonstrates troubleshooting and resilience.
+*   *Example Challenge: **Log Parsing Failure.** Initially, logs from my custom web application were not being parsed correctly by Wazuh. The default decoders did not recognize the log format.*
+*   *Example Resolution: **Custom Decoder Development.** I researched the Wazuh XML decoder syntax and wrote a custom decoder and rule set to correctly identify and categorize the specific event types from my application logs, which I then tested and deployed to the server.*
+
+---
+
+### **5. Outcome & Results**
+*   **(1 paragraph)** What was the final result? Was the objective met? What did you learn?
+*   *Example: "The project was successful. The SIEM now provides real-time visibility into the lab network, successfully detecting and alerting on reconnaissance scans, brute-force attempts, and specific web application attacks. This project significantly deepened my understanding of log management, SIEM architecture, and the importance of custom detection rules."*
+
+
