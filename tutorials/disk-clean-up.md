@@ -1,6 +1,6 @@
 ---
 layout: default
-title: DISK CLEANUP
+title: Disk Cleanup
 parent: Tutorials
 nav_order: 1
 ---
@@ -17,7 +17,7 @@ A complete list of the tools can be found at the references/tools-and-tech page 
 
 ## ACTIONABLE STEPS FOR CLEAN-UP
 
-**Using the tools:** I used the tools listed listed in the Disk Management and System Tools to inspect, review, consolidate file and clean up multiple Hard Drives in preparation for moving media to a Media Server, and to clean up operations on my main computers as well.
+I used the tools listed listed in the Disk Management and System Tools to inspect, review, consolidate file and clean up multiple Hard Drives in preparation for moving media to a Media Server, and to clean up operations on my main computers as well.
 ---
 
 ## hiberfil.sys
@@ -28,7 +28,7 @@ If we are not using the hibernate feature (I don't) it is a unneeded waste of sp
 If we are not using BitLocker on the system drive of the computer, then it is susceptible to extraction from a physical attack.
 We can turn it off and it will automatically delete the file as well. I may turn it back on after hard drives are cleaned up and BitLocker installed.
 
-**STEPS TO COMPLETE:**
+### Steps to Complete
 1. Open Windows PowerShell as an Administrator
 2. Type the command `powercfg /h off` and press Enter
 3. Hibernation will be turned off and the hiberfil.sys file will be automatically deleted.
@@ -40,7 +40,7 @@ To turn it back on follow same directions with command: `powercfg /h on`
 
 This file can get very large and is indicative of the computer using a lot of virtual memory. My file was not ridiculously large, but we will check its settings anyways. I recently doubled the available RAM and may be able to adjust the max settings down.
 
-**STEPS TO COMPLETE: Disable automatic management:**
+### Steps to Complete: Disable automatic management
 1. Open File Explorer, right-click This PC, select Properties, then Advanced System Settings.
 2. Go to the Advanced Tab, click Settings under Performance, and then select the Advanced tab again
 3. Under Virtual Memory, click Change, then uncheck Automatically manage page file size for all drives.
@@ -50,12 +50,12 @@ Won't Take Effect until after Reboot.
 
 There is an option to not use a paging file. This is not recommended in general user settings.
 
-**I made no adjustments for my situation**
+*Note: I made no adjustments for my situation*
 ---
 
 ## LARGE unused programs
 
-**Locating large Programs** I started by sorting by file size in WinDirStat.
+I started by sorting by file size in WinDirStat.
 
 Found the largest files were LLM files used with LMStudio. Which I do use, but can move to a faster drive for better performance.
 
@@ -69,7 +69,7 @@ After some online research I determined this is the model weights file for a Gem
 
 Source: chrome://flags/#prompt-api-for-gemini-nano
 
-**STEPS TO COMPLETE TO DISABLE AND REMOVE:**
+### Steps to Complete to Disable and Remove
 1. go to the link above in chrome browser
 2. change drop down selection to "Disabled"
 
@@ -84,16 +84,16 @@ Can also set to Disabled the following:
 3. Click Relaunch, or close and Relaunch Chrome
 4. Restart, manually delete the file if not removed.
 
-**This worked for me and I removed the 1.3GB file along with another one in the same folder that was related (didn't catch the name) total removed was 2.7GB.**
+*Result: This worked for me and I removed the 1.3GB file along with another one in the same folder that was related (didn't catch the name) total removed was 2.7GB.*
 ---
 
 ## BitLocker Check
 
-**BitLocker** BitLocker is full hard disk encryption native to Windows. It requires a Recovery Key, and therefore is often OFF when shipped with a new computer. It must be turned on and a recovery key created by the new user.
+BitLocker is full hard disk encryption native to Windows. It requires a Recovery Key, and therefore is often OFF when shipped with a new computer. It must be turned on and a recovery key created by the new user.
 
 I checked on a computer that came with Windows pre-installed and determined BitLocker had never been set up…so these are the steps to set it up.
 
-**STEPS TO CHECK AND SET UP:**
+### Steps to Check and Set Up
 1. In windows search, type Manage BitLocker (select it)
 2. In the BitLocker Drive Encryption page, you can see which drive volumes have BitLocker on or not.
 3. Select the Drive you want to Encrypt
@@ -106,9 +106,9 @@ I checked on a computer that came with Windows pre-installed and determined BitL
 
 ## LAST CLEAN UP STEPS
 
-**Disk Cleanup** From file explorer we can a few utilities to cleanup and double check no errors on the disk. Typically not needed, but given the large amount of files moved and number of changes it is a good practice.
+From file explorer we can a few utilities to cleanup and double check no errors on the disk. Typically not needed, but given the large amount of files moved and number of changes it is a good practice.
 
-**STEPS TO TAKE:**
+### Steps to Take
 1. Open Windows File Explorer
 2. Right click on the drive you want to clean up
 3. under General tab, select Disk Cleanup
@@ -118,51 +118,51 @@ I checked on a computer that came with Windows pre-installed and determined BitL
 
 Optimize drive screen will come up to select the drive, Analyze if there are issues, the Optimize if you choose too, you can also set a schedule for regular checks.
 
-**MY FILES WERE FINE EVEN AFTER ALL THE FILES BEING MOVED SO OPTIMIZE WAS NOT RUN IN MY CASE**
+*Note: My files were fine even after all the files being moved so optimize was not run in my case*
 ---
 
 ## Duplicate Files Search
 
-**dupeGuru: Duplicate Files Fixer** It appears the name may have changed so I put both here.
+It appears the name may have changed so I put both here.
 Download and run setup, I ran with "Start scan after installation"
 
 It may ask to install additional components to see previews of RAW files. We may have some photos in RAW format so I selected "Yes".
 
-**DISAPPOINTMENT**
+**Disappointment:**
 It only allowed search the main PC drive, and wanted monetary upgrade for additional features and a separate program for reviewing photos. Not the experience I remembered from previous use…removed a couple small files, and uninstalled.
 
 I moved the setup.exe file for the program to a different drive and used Task Manager to kill all processes from the previous version. Then reinstalled in the new location.
 Attempting to see if it checks the drive it is on, or just the system drive…it checked the system drive only.
 
-**REMOVING - WONT USE AGAIN**
+*Removing - won't use again*
 
 ---
 ## Tree Size Free
 
-**Tree Size** Installed new program to try, fast install and setup, very fast file search.
+Installed new program to try, fast install and setup, very fast file search.
 VERY FAST SCAN OF A DRIVE.
 Can select a different drive under "Select Directory"
 
 This is faster and very similar to WinDirStat, I will probably use this one in the future.
 
-**Not seeing where I can search for duplicates…**
+*Note: Not seeing where I can search for duplicates…*
 ---
 
 ## UltraSearch Free
 
-**UltraSearch** From same company as Tree Size, Installed new program to try, fast install and setup, very fast file search.
+From same company as Tree Size, Installed new program to try, fast install and setup, very fast file search.
 I can see the use, especially the Pro version that can search inside of Zip files.
 Free does not appear to have duplicate search enabled.
 
-**UNINSTALLED**
+*Uninstalled*
 ---
 
 ## Everything 1.5a
 
-**Everything** Installed new program to try, fast install and setup, very fast file search.
+Installed new program to try, fast install and setup, very fast file search.
 Has a right click on header to search for duplicates by type (name, length, size etc)
 
-**THIS IS GREAT**
+*This is great!*
 Found a total of 3.4GB additional duplicates, mainly .pdf and .mp3 files
 Removed then, ran clean up again.
 Will dump recycle bin and restart.
