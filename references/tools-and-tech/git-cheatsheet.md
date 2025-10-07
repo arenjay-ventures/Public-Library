@@ -22,7 +22,7 @@ Working with Git isn't a single "save" action. It’s a deliberate, three-stage 
 2.  **Staging Area (The "Index"):** This is the waiting room. After you've made changes, you move the specific files you want to save into the staging area. This lets you group related changes together into a single, clean "snapshot."
 3.  **Local Repository (`.git`):** This is your project's history book. When you "commit," you take everything in the staging area and permanently save it as a new snapshot (a "commit") in your local repository. This snapshot has a unique ID and a descriptive message.
 
-![A diagram showing the three stages: Working Directory -> git add -> Staging Area -> git commit -> Local Repository](/git_diagram.webp)
+![A diagram showing the three stages: Working Directory -> git add -> Staging Area -> git commit -> Local Repository]({{ '/assets/images/git_diagram.webp' | relative_url }})
 
 ---
 
