@@ -145,6 +145,266 @@ Google offers comprehensive, job-ready training programs that can be completed i
 - **Passing Score**: 750/900
 - **Validity**: 3 years
 
+## **Cloud Certifications**
+
+### **AWS (Amazon Web Services)**
+
+#### **AWS Certified Cloud Practitioner**
+- **Level**: Foundational
+- **Duration**: 90 minutes
+- **Cost**: $100
+- **Skills**: Cloud concepts, AWS services, security, billing
+- **Prerequisites**: None
+- **Link**: [AWS Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/)
+
+#### **AWS Certified Solutions Architect - Associate**
+- **Level**: Associate
+- **Duration**: 130 minutes
+- **Cost**: $150
+- **Skills**: Design distributed systems, AWS services, security
+- **Prerequisites**: 1+ years AWS experience
+- **Link**: [AWS Solutions Architect Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/)
+
+#### **AWS Certified Developer - Associate**
+- **Level**: Associate
+- **Duration**: 130 minutes
+- **Cost**: $150
+- **Skills**: Develop AWS applications, serverless, CI/CD
+- **Prerequisites**: 1+ years AWS development experience
+- **Link**: [AWS Developer Associate](https://aws.amazon.com/certification/certified-developer-associate/)
+
+#### **AWS Certified SysOps Administrator - Associate**
+- **Level**: Associate
+- **Duration**: 180 minutes
+- **Cost**: $150
+- **Skills**: Deploy, manage, operate AWS systems
+- **Prerequisites**: 1+ years AWS operations experience
+- **Link**: [AWS SysOps Administrator](https://aws.amazon.com/certification/certified-sysops-admin-associate/)
+
+#### **AWS Certified Solutions Architect - Professional**
+- **Level**: Professional
+- **Duration**: 180 minutes
+- **Cost**: $300
+- **Skills**: Advanced architecture, complex solutions, migration
+- **Prerequisites**: AWS Solutions Architect Associate + 2+ years experience
+- **Link**: [AWS Solutions Architect Professional](https://aws.amazon.com/certification/certified-solutions-architect-professional/)
+
+#### **AWS Certified DevOps Engineer - Professional**
+- **Level**: Professional
+- **Duration**: 180 minutes
+- **Cost**: $300
+- **Skills**: CI/CD, automation, monitoring, security
+- **Prerequisites**: AWS Developer or SysOps Associate + 2+ years experience
+- **Link**: [AWS DevOps Engineer Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/)
+
+#### **AWS Certified Security - Specialty**
+- **Level**: Specialty
+- **Duration**: 170 minutes
+- **Cost**: $300
+- **Skills**: Security controls, data protection, incident response
+- **Prerequisites**: 5+ years IT security experience
+- **Link**: [AWS Security Specialty](https://aws.amazon.com/certification/certified-security-specialty/)
+
+### **Microsoft Azure**
+
+#### **Azure Fundamentals (AZ-900)**
+- **Level**: Foundational
+- **Duration**: 60 minutes
+- **Cost**: $99
+- **Skills**: Cloud concepts, Azure services, security, compliance
+- **Prerequisites**: None
+- **Link**: [Azure Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/)
+
+#### **Azure Administrator Associate (AZ-104)**
+- **Level**: Associate
+- **Duration**: 120 minutes
+- **Cost**: $165
+- **Skills**: Manage Azure subscriptions, resources, virtual networks
+- **Prerequisites**: 6+ months Azure administration experience
+- **Link**: [Azure Administrator Associate](https://docs.microsoft.com/en-us/learn/certifications/azure-administrator/)
+
+#### **Azure Developer Associate (AZ-204)**
+- **Level**: Associate
+- **Duration**: 120 minutes
+- **Cost**: $165
+- **Skills**: Develop Azure solutions, serverless, containers
+- **Prerequisites**: 1-2 years Azure development experience
+- **Link**: [Azure Developer Associate](https://docs.microsoft.com/en-us/learn/certifications/azure-developer/)
+
+#### **Azure Solutions Architect Expert (AZ-305)**
+- **Level**: Expert
+- **Duration**: 120 minutes
+- **Cost**: $165
+- **Skills**: Design Azure solutions, migration, security
+- **Prerequisites**: Azure Administrator or Developer Associate
+- **Link**: [Azure Solutions Architect Expert](https://docs.microsoft.com/en-us/learn/certifications/azure-solutions-architect/)
+
+#### **Azure Security Engineer Associate (AZ-500)**
+- **Level**: Associate
+- **Duration**: 120 minutes
+- **Cost**: $165
+- **Skills**: Security controls, identity, data protection
+- **Prerequisites**: 1-2 years Azure security experience
+- **Link**: [Azure Security Engineer](https://docs.microsoft.com/en-us/learn/certifications/azure-security-engineer/)
+
+### **Google Cloud Platform (GCP)**
+
+#### **Google Cloud Digital Leader**
+- **Level**: Foundational
+- **Duration**: 90 minutes
+- **Cost**: $99
+- **Skills**: Cloud concepts, Google Cloud services, digital transformation
+- **Prerequisites**: None
+- **Link**: [Google Cloud Digital Leader](https://cloud.google.com/certification/cloud-digital-leader)
+
+#### **Google Cloud Associate Cloud Engineer**
+- **Level**: Associate
+- **Duration**: 120 minutes
+- **Cost**: $125
+- **Skills**: Deploy applications, monitor operations, manage resources
+- **Prerequisites**: 6+ months Google Cloud experience
+- **Link**: [Google Cloud Associate Cloud Engineer](https://cloud.google.com/certification/cloud-engineer)
+
+#### **Google Cloud Professional Cloud Architect**
+- **Level**: Professional
+- **Duration**: 120 minutes
+- **Cost**: $200
+- **Skills**: Design cloud solutions, migration, security
+- **Prerequisites**: 3+ years industry experience, 1+ year Google Cloud
+- **Link**: [Google Cloud Professional Cloud Architect](https://cloud.google.com/certification/cloud-architect)
+
+#### **Google Cloud Professional Data Engineer**
+- **Level**: Professional
+- **Duration**: 120 minutes
+- **Cost**: $200
+- **Skills**: Data processing, machine learning, analytics
+- **Prerequisites**: 3+ years industry experience, 1+ year Google Cloud
+- **Link**: [Google Cloud Professional Data Engineer](https://cloud.google.com/certification/data-engineer)
+
+#### **Google Cloud Professional Machine Learning Engineer**
+- **Level**: Professional
+- **Duration**: 120 minutes
+- **Cost**: $200
+- **Skills**: ML model development, deployment, monitoring
+- **Prerequisites**: 3+ years ML experience, 1+ year Google Cloud
+- **Link**: [Google Cloud Professional ML Engineer](https://cloud.google.com/certification/ml-engineer)
+
+## **AI/ML Certifications**
+
+### **Machine Learning & AI**
+
+#### **AWS Certified Machine Learning - Specialty**
+- **Level**: Specialty
+- **Duration**: 180 minutes
+- **Cost**: $300
+- **Skills**: ML algorithms, SageMaker, model deployment
+- **Prerequisites**: 2+ years ML/MLOps experience
+- **Link**: [AWS ML Specialty](https://aws.amazon.com/certification/certified-machine-learning-specialty/)
+
+#### **Microsoft Azure AI Engineer Associate (AI-102)**
+- **Level**: Associate
+- **Duration**: 120 minutes
+- **Cost**: $165
+- **Skills**: AI solutions, Cognitive Services, Bot Framework
+- **Prerequisites**: 1-2 years Azure AI experience
+- **Link**: [Azure AI Engineer](https://docs.microsoft.com/en-us/learn/certifications/azure-ai-engineer/)
+
+#### **Microsoft Azure Data Scientist Associate (DP-100)**
+- **Level**: Associate
+- **Duration**: 120 minutes
+- **Cost**: $165
+- **Skills**: Data science, ML pipelines, model training
+- **Prerequisites**: 1-2 years data science experience
+- **Link**: [Azure Data Scientist](https://docs.microsoft.com/en-us/learn/certifications/azure-data-scientist/)
+
+#### **Google Cloud Professional Machine Learning Engineer**
+- **Level**: Professional
+- **Duration**: 120 minutes
+- **Cost**: $200
+- **Skills**: ML model development, deployment, monitoring
+- **Prerequisites**: 3+ years ML experience, 1+ year Google Cloud
+- **Link**: [Google Cloud ML Engineer](https://cloud.google.com/certification/ml-engineer)
+
+### **Data Science & Analytics**
+
+#### **AWS Certified Data Analytics - Specialty**
+- **Level**: Specialty
+- **Duration**: 180 minutes
+- **Cost**: $300
+- **Skills**: Data collection, storage, processing, analysis
+- **Prerequisites**: 5+ years data analytics experience
+- **Link**: [AWS Data Analytics Specialty](https://aws.amazon.com/certification/certified-data-analytics-specialty/)
+
+#### **Microsoft Azure Data Engineer Associate (DP-203)**
+- **Level**: Associate
+- **Duration**: 120 minutes
+- **Cost**: $165
+- **Skills**: Data processing, storage, analytics solutions
+- **Prerequisites**: 1-2 years Azure data engineering experience
+- **Link**: [Azure Data Engineer](https://docs.microsoft.com/en-us/learn/certifications/azure-data-engineer/)
+
+#### **Google Cloud Professional Data Engineer**
+- **Level**: Professional
+- **Duration**: 120 minutes
+- **Cost**: $200
+- **Skills**: Data processing, machine learning, analytics
+- **Prerequisites**: 3+ years industry experience, 1+ year Google Cloud
+- **Link**: [Google Cloud Data Engineer](https://cloud.google.com/certification/data-engineer)
+
+## **Security Certifications**
+
+### **Cloud Security**
+
+#### **AWS Certified Security - Specialty**
+- **Level**: Specialty
+- **Duration**: 170 minutes
+- **Cost**: $300
+- **Skills**: Security controls, data protection, incident response
+- **Prerequisites**: 5+ years IT security experience
+- **Link**: [AWS Security Specialty](https://aws.amazon.com/certification/certified-security-specialty/)
+
+#### **Microsoft Azure Security Engineer Associate (AZ-500)**
+- **Level**: Associate
+- **Duration**: 120 minutes
+- **Cost**: $165
+- **Skills**: Security controls, identity, data protection
+- **Prerequisites**: 1-2 years Azure security experience
+- **Link**: [Azure Security Engineer](https://docs.microsoft.com/en-us/learn/certifications/azure-security-engineer/)
+
+#### **Google Cloud Professional Security Engineer**
+- **Level**: Professional
+- **Duration**: 120 minutes
+- **Cost**: $200
+- **Skills**: Security controls, identity, data protection
+- **Prerequisites**: 3+ years security experience, 1+ year Google Cloud
+- **Link**: [Google Cloud Security Engineer](https://cloud.google.com/certification/security-engineer)
+
+### **Cybersecurity Specializations**
+
+#### **CISSP (Certified Information Systems Security Professional)**
+- **Level**: Advanced
+- **Duration**: 6 hours
+- **Cost**: $749
+- **Skills**: Security architecture, risk management, governance
+- **Prerequisites**: 5+ years security experience
+- **Link**: [CISSP Certification](https://www.isc2.org/Certifications/CISSP)
+
+#### **CISM (Certified Information Security Manager)**
+- **Level**: Management
+- **Duration**: 4 hours
+- **Cost**: $575
+- **Skills**: Security management, governance, risk assessment
+- **Prerequisites**: 5+ years security management experience
+- **Link**: [CISM Certification](https://www.isaca.org/credentialing/cism)
+
+#### **CISA (Certified Information Systems Auditor)**
+- **Level**: Audit
+- **Duration**: 4 hours
+- **Cost**: $575
+- **Skills**: IT auditing, risk assessment, compliance
+- **Prerequisites**: 5+ years IT audit experience
+- **Link**: [CISA Certification](https://www.isaca.org/credentialing/cisa)
+
 ## **Western Governors University (WGU)**
 
 ### **Why WGU for IT Education**
