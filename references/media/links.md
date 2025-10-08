@@ -13,15 +13,19 @@ A curated collection of useful links organized by category for quick access to l
 ## Book Links
 
 ### Technical Books
-- [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) - Robert C. Martin
-- [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-journey-mastery-Anniversary/dp/0135957052) - David Thomas & Andrew Hunt
-- [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/1449373321) - Martin Kleppmann
-- [System Design Interview](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF) - Alex Xu
+- [Book Title] - [Author Name] - [Brief description]
+- [Book Title] - [Author Name] - [Brief description]
+- [Book Title] - [Author Name] - [Brief description]
 
 ### Cybersecurity Books
-- [The Web Application Hacker's Handbook](https://www.amazon.com/Web-Application-Hackers-Handbook-Exploiting/dp/1118026470) - Dafydd Stuttard & Marcus Pinto
-- [Metasploit: The Penetration Tester's Guide](https://www.amazon.com/Metasploit-Penetration-Testers-David-Kennedy/dp/159327288X) - David Kennedy
-- [Black Hat Python](https://www.amazon.com/Black-Hat-Python-Programming-Pentesters/dp/1593275900) - Justin Seitz
+- [Book Title] - [Author Name] - [Brief description]
+- [Book Title] - [Author Name] - [Brief description]
+- [Book Title] - [Author Name] - [Brief description]
+
+### Business & Leadership Books
+- [Book Title] - [Author Name] - [Brief description]
+- [Book Title] - [Author Name] - [Brief description]
+- [Book Title] - [Author Name] - [Brief description]
 
 ## Research Papers
 
