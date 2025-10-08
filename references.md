@@ -7,4 +7,4 @@ has_children: true
 
 # References
 
-(Content coming soon...)
+A quick place to reference back to my go to standards, tips, reminders, etc.

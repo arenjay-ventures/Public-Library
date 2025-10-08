@@ -7,4 +7,4 @@ has_children: true
 
 # Templates
 
-(Content coming soon...)
+Basic Templates to keep my formatting consistent.

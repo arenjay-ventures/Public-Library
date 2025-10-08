@@ -5,7 +5,7 @@ parent: Tutorials
 nav_order: 1
 ---
 
-# DISK CLEANUP – Preparing for a media server
+# Disk Cleanup – Preparing for a media server
 
 ## Project Disk Cleanup
 

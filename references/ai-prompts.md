@@ -8,4 +8,4 @@ has_children: true
 
 # AI Prompts
 
-(Content coming soon...)
+AI Native since GPT3, I have extensively learned prompt engineering over the last last few years. I full recognise its strengths and weaknesses. I will keep some reference prompts as starting points in this area.

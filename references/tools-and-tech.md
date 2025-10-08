@@ -8,4 +8,4 @@ has_children: true
 
 # Tools & Technology
 
-(Content coming soon...)
+I will keep some "cheatsheets" as reminders of basics and references to tools and software I have used.

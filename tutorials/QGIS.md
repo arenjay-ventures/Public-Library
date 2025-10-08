@@ -1,0 +1,1 @@
+#document my progress on QGIS in survey and python scripts to determine dms, x,y etc
