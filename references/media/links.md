@@ -210,6 +210,98 @@ A curated collection of useful links organized by category for quick access to l
 - [Chainlink Developer Resources](https://docs.chain.link/) - Chainlink (Free)
 - [OpenZeppelin Documentation](https://docs.openzeppelin.com/) - Smart contract security (Free)
 
+### Computer Science (Free)
+- [CS50: Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x) - Harvard University (Free)
+- [MIT 6.00.1x: Introduction to Computer Science](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-10) - MIT (Free)
+- [Stanford CS106A: Programming Methodology](https://www.youtube.com/playlist?list=PL84A56BC7F4A1F852) - Stanford (YouTube)
+- [Berkeley CS61A: Structure and Interpretation](https://www.youtube.com/playlist?list=PLhQjrBD2T3828XPqvprP6WwD6dWx12vzZ) - UC Berkeley (YouTube)
+- [MIT 6.006: Introduction to Algorithms](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/) - MIT (Free)
+- [Stanford CS161: Design and Analysis of Algorithms](https://web.stanford.edu/class/cs161/) - Stanford (Free)
+- [Princeton Algorithms Course](https://www.coursera.org/learn/algorithms-part1) - Princeton (Free)
+- [MIT 6.042J: Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/) - MIT (Free)
+- [Stanford CS103: Mathematical Foundations of Computing](https://web.stanford.edu/class/cs103/) - Stanford (Free)
+- [MIT 6.033: Computer System Engineering](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-033-computer-system-engineering-spring-2018/) - MIT (Free)
+- [Stanford CS140: Operating Systems](https://web.stanford.edu/class/cs140/) - Stanford (Free)
+- [MIT 6.824: Distributed Systems](https://pdos.csail.mit.edu/6.824/) - MIT (Free)
+- [Stanford CS144: Introduction to Computer Networking](https://web.stanford.edu/class/cs144/) - Stanford (Free)
+- [MIT 6.858: Computer Systems Security](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-858-computer-systems-security-fall-2014/) - MIT (Free)
+- [Stanford CS229: Machine Learning](https://web.stanford.edu/class/cs229/) - Stanford (Free)
+- [MIT 6.034: Artificial Intelligence](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-034-artificial-intelligence-fall-2010/) - MIT (Free)
+
+## Certifications
+
+### CompTIA Certifications
+- [CompTIA A+](https://www.comptia.org/certifications/a) - IT Fundamentals and Hardware
+- [CompTIA Network+](https://www.comptia.org/certifications/network) - Networking Fundamentals
+- [CompTIA Security+](https://www.comptia.org/certifications/security) - Cybersecurity Fundamentals
+- [CompTIA CySA+](https://www.comptia.org/certifications/cybersecurity-analyst) - Cybersecurity Analyst
+- [CompTIA PenTest+](https://www.comptia.org/certifications/pentest) - Penetration Testing
+- [CompTIA CASP+](https://www.comptia.org/certifications/advanced-security-practitioner) - Advanced Security Practitioner
+- [CompTIA Cloud+](https://www.comptia.org/certifications/cloud) - Cloud Computing
+- [CompTIA Linux+](https://www.comptia.org/certifications/linux) - Linux Administration
+- [CompTIA Server+](https://www.comptia.org/certifications/server) - Server Administration
+- [CompTIA Project+](https://www.comptia.org/certifications/project) - Project Management
+
+### Google Certifications
+- [Google IT Support Certificate](https://www.coursera.org/professional-certificates/google-it-support) - IT Support Fundamentals
+- [Google Data Analytics Certificate](https://www.coursera.org/professional-certificates/google-data-analytics) - Data Analytics
+- [Google Project Management Certificate](https://www.coursera.org/professional-certificates/google-project-management) - Project Management
+- [Google UX Design Certificate](https://www.coursera.org/professional-certificates/google-ux-design) - User Experience Design
+- [Google Digital Marketing Certificate](https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce) - Digital Marketing
+- [Google Cloud Professional Certifications](https://cloud.google.com/certification) - Cloud Computing
+- [Google Cloud Associate Cloud Engineer](https://cloud.google.com/certification/cloud-engineer) - Cloud Engineering
+- [Google Cloud Professional Cloud Architect](https://cloud.google.com/certification/cloud-architect) - Cloud Architecture
+- [Google Cloud Professional Data Engineer](https://cloud.google.com/certification/data-engineer) - Data Engineering
+- [Google Cloud Professional Machine Learning Engineer](https://cloud.google.com/certification/machine-learning-engineer) - ML Engineering
+
+### AWS Certifications
+- [AWS Certified Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) - Cloud Fundamentals
+- [AWS Certified Solutions Architect Associate](https://aws.amazon.com/certification/certified-solutions-architect-associate/) - Solutions Architecture
+- [AWS Certified Solutions Architect Professional](https://aws.amazon.com/certification/certified-solutions-architect-professional/) - Advanced Architecture
+- [AWS Certified Developer Associate](https://aws.amazon.com/certification/certified-developer-associate/) - Development
+- [AWS Certified SysOps Administrator Associate](https://aws.amazon.com/certification/certified-sysops-admin-associate/) - Operations
+- [AWS Certified DevOps Engineer Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/) - DevOps
+- [AWS Certified Security Specialty](https://aws.amazon.com/certification/certified-security-specialty/) - Security
+- [AWS Certified Machine Learning Specialty](https://aws.amazon.com/certification/certified-machine-learning-specialty/) - Machine Learning
+- [AWS Certified Data Analytics Specialty](https://aws.amazon.com/certification/certified-data-analytics-specialty/) - Data Analytics
+- [AWS Certified Database Specialty](https://aws.amazon.com/certification/certified-database-specialty/) - Database
+
+### Microsoft Azure Certifications
+- [Microsoft Azure Fundamentals (AZ-900)](https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/) - Cloud Fundamentals
+- [Microsoft Azure Administrator Associate (AZ-104)](https://docs.microsoft.com/en-us/learn/certifications/azure-administrator/) - Administration
+- [Microsoft Azure Developer Associate (AZ-204)](https://docs.microsoft.com/en-us/learn/certifications/azure-developer/) - Development
+- [Microsoft Azure Solutions Architect Expert (AZ-305)](https://docs.microsoft.com/en-us/learn/certifications/azure-solutions-architect/) - Solutions Architecture
+- [Microsoft Azure DevOps Engineer Expert (AZ-400)](https://docs.microsoft.com/en-us/learn/certifications/azure-devops/) - DevOps
+- [Microsoft Azure Security Engineer Associate (AZ-500)](https://docs.microsoft.com/en-us/learn/certifications/azure-security-engineer/) - Security
+- [Microsoft Azure Data Scientist Associate (DP-100)](https://docs.microsoft.com/en-us/learn/certifications/azure-data-scientist/) - Data Science
+- [Microsoft Azure Data Engineer Associate (DP-203)](https://docs.microsoft.com/en-us/learn/certifications/azure-data-engineer/) - Data Engineering
+- [Microsoft Azure AI Engineer Associate (AI-102)](https://docs.microsoft.com/en-us/learn/certifications/azure-ai-engineer/) - AI Engineering
+- [Microsoft Azure Machine Learning Engineer Associate (DP-100)](https://docs.microsoft.com/en-us/learn/certifications/azure-machine-learning-engineer/) - ML Engineering
+
+### AI and ML Certifications
+- [Google Cloud Professional Machine Learning Engineer](https://cloud.google.com/certification/machine-learning-engineer) - Google Cloud ML
+- [AWS Certified Machine Learning Specialty](https://aws.amazon.com/certification/certified-machine-learning-specialty/) - AWS ML
+- [Microsoft Azure AI Engineer Associate](https://docs.microsoft.com/en-us/learn/certifications/azure-ai-engineer/) - Azure AI
+- [Microsoft Azure Data Scientist Associate](https://docs.microsoft.com/en-us/learn/certifications/azure-data-scientist/) - Azure Data Science
+- [IBM AI Engineering Professional Certificate](https://www.coursera.org/professional-certificates/ai-engineer) - IBM AI Engineering
+- [Stanford Machine Learning Certificate](https://www.coursera.org/learn/machine-learning) - Stanford ML Course
+- [Deep Learning Specialization](https://www.coursera.org/specializations/deep-learning) - DeepLearning.AI
+- [TensorFlow Developer Certificate](https://www.tensorflow.org/certificate) - TensorFlow Certification
+- [PyTorch Developer Certificate](https://pytorch.org/certification/) - PyTorch Certification
+- [NVIDIA Deep Learning Institute](https://www.nvidia.com/en-us/training/) - NVIDIA DLI Certifications
+
+### Cloud Hosting and DevOps Certifications
+- [Google Cloud Professional Cloud Architect](https://cloud.google.com/certification/cloud-architect) - Google Cloud Architecture
+- [Google Cloud Professional DevOps Engineer](https://cloud.google.com/certification/cloud-devops-engineer) - Google Cloud DevOps
+- [AWS Certified DevOps Engineer Professional](https://aws.amazon.com/certification/certified-devops-engineer-professional/) - AWS DevOps
+- [Microsoft Azure DevOps Engineer Expert](https://docs.microsoft.com/en-us/learn/certifications/azure-devops/) - Azure DevOps
+- [Docker Certified Associate](https://training.mirantis.com/certification/dca-certification-exam/) - Docker Certification
+- [Kubernetes Administrator (CKA)](https://www.cncf.io/certification/cka/) - Kubernetes Administration
+- [Kubernetes Application Developer (CKAD)](https://www.cncf.io/certification/ckad/) - Kubernetes Development
+- [Certified Kubernetes Security Specialist (CKS)](https://www.cncf.io/certification/cks/) - Kubernetes Security
+- [Terraform Associate Certification](https://www.hashicorp.com/certification/terraform-associate) - Infrastructure as Code
+- [Jenkins Engineer Certification](https://www.jenkins.io/certification/) - CI/CD Pipeline
+
 ## VM Practice & Labs
 
 ### Cybersecurity Labs
@@ -225,7 +317,6 @@ A curated collection of useful links organized by category for quick access to l
 ### Development Environments
 - [GitHub Codespaces](https://github.com/features/codespaces) - Cloud development environment
 - [Gitpod](https://www.gitpod.io/) - Cloud development environment
-- [Replit](https://replit.com/) - Online IDE and coding platform
 - [CodeSandbox](https://codesandbox.io/) - Online code editor
 - [StackBlitz](https://stackblitz.com/) - Online IDE for web development
 
@@ -270,31 +361,66 @@ A curated collection of useful links organized by category for quick access to l
 ## Subject-Based Resources
 
 ### Programming Languages
-- **Python**: [Python.org](https://www.python.org/) | [Real Python](https://realpython.com/) | [Python Tutor](https://pythontutor.com/)
-- **JavaScript**: [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) | [JavaScript.info](https://javascript.info/) | [Eloquent JavaScript](https://eloquentjavascript.net/)
-- **TypeScript**: [TypeScript Handbook](https://www.typescriptlang.org/docs/) | [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/)
-- **Rust**: [Rust Book](https://doc.rust-lang.org/book/) | [Rust by Example](https://doc.rust-lang.org/rust-by-example/) | [Rustlings](https://github.com/rust-lang/rustlings)
-- **Go**: [Go Tour](https://tour.golang.org/) | [Go by Example](https://gobyexample.com/) | [Effective Go](https://golang.org/doc/effective_go.html)
-- **Java**: [Oracle Java Docs](https://docs.oracle.com/en/java/) | [Java Tutorials](https://docs.oracle.com/javase/tutorial/) | [Baeldung](https://www.baeldung.com/)
+- [Python.org](https://www.python.org/) - Official Python documentation and downloads
+- [Real Python](https://realpython.com/) - Python tutorials and best practices
+- [Python Tutor](https://pythontutor.com/) - Visualize Python code execution
+- [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - JavaScript documentation
+- [JavaScript.info](https://javascript.info/) - Modern JavaScript tutorial
+- [Eloquent JavaScript](https://eloquentjavascript.net/) - JavaScript programming book
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/) - TypeScript documentation
+- [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/) - Advanced TypeScript guide
+- [Rust Book](https://doc.rust-lang.org/book/) - Official Rust programming guide
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/) - Learn Rust through examples
+- [Rustlings](https://github.com/rust-lang/rustlings) - Interactive Rust exercises
+- [Go Tour](https://tour.golang.org/) - Interactive Go tutorial
+- [Go by Example](https://gobyexample.com/) - Learn Go through examples
+- [Effective Go](https://golang.org/doc/effective_go.html) - Go best practices
+- [Oracle Java Docs](https://docs.oracle.com/en/java/) - Official Java documentation
+- [Java Tutorials](https://docs.oracle.com/javase/tutorial/) - Java learning tutorials
+- [Baeldung](https://www.baeldung.com/) - Java and Spring tutorials
 
 ### Web Development
-- **Frontend**: [MDN Web Docs](https://developer.mozilla.org/) | [Can I Use](https://caniuse.com/) | [Web.dev](https://web.dev/)
-- **React**: [React Docs](https://reactjs.org/docs/) | [React Router](https://reactrouter.com/) | [Redux](https://redux.js.org/)
-- **Vue.js**: [Vue.js Guide](https://vuejs.org/guide/) | [Vue Router](https://router.vuejs.org/) | [Vuex](https://vuex.vuejs.org/)
-- **Angular**: [Angular Docs](https://angular.io/docs) | [Angular Material](https://material.angular.io/) | [RxJS](https://rxjs.dev/)
-- **Backend**: [Node.js Docs](https://nodejs.org/docs/) | [Express.js](https://expressjs.com/) | [FastAPI](https://fastapi.tiangolo.com/)
+- [MDN Web Docs](https://developer.mozilla.org/) - Web development documentation
+- [Can I Use](https://caniuse.com/) - Browser compatibility tables
+- [Web.dev](https://web.dev/) - Modern web development guides
+- [React Docs](https://reactjs.org/docs/) - React library documentation
+- [React Router](https://reactrouter.com/) - React routing library
+- [Redux](https://redux.js.org/) - State management for React
+- [Vue.js Guide](https://vuejs.org/guide/) - Vue.js framework documentation
+- [Vue Router](https://router.vuejs.org/) - Vue.js routing
+- [Vuex](https://vuex.vuejs.org/) - Vue.js state management
+- [Angular Docs](https://angular.io/docs) - Angular framework documentation
+- [Angular Material](https://material.angular.io/) - Angular UI components
+- [RxJS](https://rxjs.dev/) - Reactive programming library
+- [Node.js Docs](https://nodejs.org/docs/) - Node.js runtime documentation
+- [Express.js](https://expressjs.com/) - Node.js web framework
+- [FastAPI](https://fastapi.tiangolo.com/) - Python web framework
 
 ### Cybersecurity
-- **Penetration Testing**: [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) | [PTES](http://www.pentest-standard.org/) | [OSSTMM](https://www.isecom.org/OSSTMM.3.pdf)
-- **Digital Forensics**: [SANS Digital Forensics](https://www.sans.org/curricula/digital-forensics/) | [NIST Computer Forensics](https://www.nist.gov/publications/computer-forensics)
-- **Incident Response**: [NIST Incident Response](https://www.nist.gov/publications/computer-security-incident-handling-guide) | [SANS Incident Response](https://www.sans.org/curricula/incident-response/)
-- **Malware Analysis**: [Malware Analysis](https://www.malwareanalysis.com/) | [VirusTotal](https://www.virustotal.com/) | [Hybrid Analysis](https://www.hybrid-analysis.com/)
+- [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) - Web security testing
+- [PTES](http://www.pentest-standard.org/) - Penetration Testing Execution Standard
+- [OSSTMM](https://www.isecom.org/OSSTMM.3.pdf) - Open Source Security Testing Methodology
+- [SANS Digital Forensics](https://www.sans.org/curricula/digital-forensics/) - Digital forensics training
+- [NIST Computer Forensics](https://www.nist.gov/publications/computer-forensics) - Computer forensics guidelines
+- [NIST Incident Response](https://www.nist.gov/publications/computer-security-incident-handling-guide) - Incident response procedures
+- [SANS Incident Response](https://www.sans.org/curricula/incident-response/) - Incident response training
+- [Malware Analysis](https://www.malwareanalysis.com/) - Malware analysis resources
+- [VirusTotal](https://www.virustotal.com/) - Virus scanning service
+- [Hybrid Analysis](https://www.hybrid-analysis.com/) - Malware analysis platform
 
 ### Blockchain & Cryptocurrency
-- **Ethereum**: [Ethereum Docs](https://ethereum.org/en/developers/) | [Solidity Docs](https://docs.soliditylang.org/) | [OpenZeppelin](https://docs.openzeppelin.com/)
-- **Solana**: [Solana Docs](https://docs.solana.com/) | [Anchor Framework](https://www.anchor-lang.com/) | [Solana Cookbook](https://solanacookbook.com/)
-- **Bitcoin**: [Bitcoin Developer Guide](https://bitcoin.org/en/developer-guide) | [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/) | [Lightning Network](https://lightning.network/)
-- **DeFi**: [DeFi Pulse](https://defipulse.com/) | [DeFi Prime](https://defiprime.com/) | [DeFi Llama](https://defillama.com/)
+- [Ethereum Docs](https://ethereum.org/en/developers/) - Ethereum development documentation
+- [Solidity Docs](https://docs.soliditylang.org/) - Solidity programming language
+- [OpenZeppelin](https://docs.openzeppelin.com/) - Smart contract security library
+- [Solana Docs](https://docs.solana.com/) - Solana blockchain documentation
+- [Anchor Framework](https://www.anchor-lang.com/) - Solana development framework
+- [Solana Cookbook](https://solanacookbook.com/) - Solana development recipes
+- [Bitcoin Developer Guide](https://bitcoin.org/en/developer-guide) - Bitcoin development documentation
+- [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/) - Bitcoin reference implementation
+- [Lightning Network](https://lightning.network/) - Bitcoin scaling solution
+- [DeFi Pulse](https://defipulse.com/) - DeFi protocol rankings
+- [DeFi Prime](https://defiprime.com/) - DeFi news and analysis
+- [DeFi Llama](https://defillama.com/) - DeFi TVL and analytics
 
 ## Quick Reference
 
