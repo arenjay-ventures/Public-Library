@@ -287,7 +287,7 @@ Successfully cleaned up multiple hard drives, removed large system files, enable
 ### Tools & Extensions
 - [WinDirStat](https://windirstat.net/) - Disk usage statistics
 - [Tree Size Free](https://www.jam-software.com/treesize_free) - Disk space analysis
-- [Everything](https://www.voidtools.com/) - File search and duplicate detection
+- [Everything 1.5a](https://www.voidtools.com/forum/viewtopic.php?t=9787#new) - (Specifically 1.5a) File search and duplicate detection
 
 ### Community Support
 - [Windows Support Forums](https://answers.microsoft.com/en-us/windows)

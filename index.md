@@ -17,7 +17,7 @@ This knowledge base serves as a centralized repository for:
 
 ## Quick Navigation
 
-- **[Templates](templates.md)** - Professional document templates
-- **[References](references.md)** - Quick reference materials and cheatsheets
-- **[Tutorials](tutorials.md)** - Step-by-step learning guides
-- **[Project Log](project-log.md)** - Ongoing project documentation
+- **[Templates](templates.html)** - Professional document templates
+- **[References](references.html)** - Quick reference materials and cheatsheets
+- **[Tutorials](tutorials.html)** - Step-by-step learning guides
+- **[Project Log](project-log.html)** - Ongoing project documentation
