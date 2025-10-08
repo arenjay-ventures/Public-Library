@@ -169,7 +169,7 @@ I checked on a computer that came with Windows pre-installed and determined BitL
 1. In windows search, type Manage BitLocker (select it)
 2. In the BitLocker Drive Encryption page, you can see which drive volumes have BitLocker on or not.
 3. Select the Drive you want to Encrypt
-4. Create you recovery key, either save the file, print the key, etc (**KEEP SAFE NEVER LOSE**
+4. Create you recovery key, either save the file, print the key, etc (**KEEP SAFE NEVER LOSE**)
 5. Select whether you want to Encrypt used disk space only (for a new computer or drive) OR Encrypt entire drive
 6. Select Encryption mode (explanation is provided)
 7. Select "Run BitLocker system check" (we don't want a small issue to make us lose access to EVERYTHING)
