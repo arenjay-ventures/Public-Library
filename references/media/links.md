@@ -3,7 +3,7 @@ layout: default
 title: Links
 parent: Media & Learning
 grand_parent: References
-nav_order: 3
+nav_order: 4
 ---
 
 # Reference Links
@@ -162,7 +162,6 @@ A curated collection of useful links organized by category for quick access to l
 
 ### Blockchain & Cryptocurrency
 - [Andreas Antonopoulos](https://www.youtube.com/c/aantonop) - Bitcoin and blockchain
-- [Coin Bureau](https://www.youtube.com/c/CoinBureau) - Cryptocurrency analysis
 - [Whiteboard Crypto](https://www.youtube.com/c/WhiteboardCrypto) - Crypto education
 - [Finematics](https://www.youtube.com/c/Finematics) - DeFi education
 - [Bankless](https://www.youtube.com/c/Bankless) - DeFi and Web3
