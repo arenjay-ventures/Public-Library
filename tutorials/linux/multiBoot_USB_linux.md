@@ -7,7 +7,7 @@ nav_order: 1
 
 # Multi-Boot USB Setup Guide (Windows)
 ## Puppy Linux, Tails, Kali Linux & Kali Purple on One 32GB USB Drive
-
+##CURRENT STATE Puppy, Tails, and Kali are bootable Kali Purple is Not, fails install from USB##
 ---
 
 ## Prerequisites
