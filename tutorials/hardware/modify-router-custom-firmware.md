@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Modify Router Custom Firmware
-parent: Tutorials
-nav_order: 9
+parent: Hardware
+nav_order: 3
 ---
 
 # Modify Router Custom Firmware

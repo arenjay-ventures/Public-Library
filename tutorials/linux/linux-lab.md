@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Linux Lab
-parent: Tutorials
-nav_order: 2
+parent: Linux
+nav_order: 1
 has_children: true
 ---
 

@@ -62,7 +62,7 @@ nav_order: 1
 
 ### Step 4: Install Ventoy to USB Drive
 
-**⚠️ WARNING: This will ERASE ALL data on your USB drive!**
+**WARNING: This will ERASE ALL data on your USB drive!**
 
 1. In the Ventoy window, click the **Device** dropdown
 2. Select your 32GB USB drive
@@ -150,7 +150,7 @@ Persistence allows you to save changes, installed tools, and files between reboo
 7. Close browser when done
 
 **Notes on Other Distros:**
-- **Tails:** Has built-in persistence wizard on first boot
+- **Tails:** Has built-in persistence wizard on first boot (**THIS DOES NOT WORK ON MY USB**)
 - **Puppy Linux:** Automatically prompts to create save file on first shutdown
 
 ---
@@ -547,33 +547,6 @@ If still not working:
 - ✓ Use vulnerable VMs for practice (Metasploitable, DVWA)
 - ✓ Keep learning ethical and legal
 
-**Learning Path:**
-
-1. **Week 1:** Master Puppy Linux basics
-2. **Week 2:** Explore Tails and privacy concepts  
-3. **Week 3:** Learn Kali security tools
-4. **Week 4:** Understand Kali Purple defensive security
-
----
-
-## Quick Reference Commands
-
-**Check File Hash in PowerShell:**
-```powershell
-Get-FileHash -Path "C:\path\to\file.iso" -Algorithm SHA256
-```
-
-**Check BitLocker Status in PowerShell (as Admin):**
-```powershell
-manage-bde -status
-```
-
-**Disable BitLocker in PowerShell (as Admin):**
-```powershell
-manage-bde -off C:
-```
-
----
 
 ## Additional Resources
 
@@ -594,70 +567,6 @@ manage-bde -off C:
 - Tails Documentation: https://tails.boum.org/doc/
 - Kali Documentation: https://www.kali.org/docs/
 - Kali Purple Guide: https://www.kali.org/blog/kali-linux-2023-1-release/#kali-purple
-
-### Community Support
-
-**Forums:**
-- Ventoy GitHub Discussions: https://github.com/ventoy/Ventoy/discussions
-- Kali Forums: https://forums.kali.org/
-- Puppy Linux Forum: https://forum.puppylinux.com/
-- Reddit: r/Kali4noobs, r/linuxquestions, r/linux4noobs
-
-### Learning Resources
-
-**Security Training Platforms:**
-- TryHackMe: https://tryhackme.com (beginner-friendly)
-- HackTheBox: https://www.hackthebox.com (intermediate)
-- PentesterLab: https://pentesterlab.com
-- OverTheWire: https://overthewire.org/wargames/
-
-**Practice Environments:**
-- Download VirtualBox (free)
-- Get Metasploitable2 VM (intentionally vulnerable)
-- Get DVWA (Damn Vulnerable Web App)
-- Practice safely in isolated environment
-
-**Community Support:**
-- Kali Forums: https://forums.kali.org/
-- Reddit: r/Kali4noobs, r/linuxquestions
-- Discord: Various cybersecurity learning servers
-
----
-
-## Summary
-
-You now have a powerful multi-boot USB drive containing:
-- ✓ Puppy Linux (lightweight, fast, perfect for learning Linux basics)
-- ✓ Tails (privacy and anonymity, Tor-based)
-- ✓ Kali Linux (offensive security, penetration testing)
-- ✓ Kali Purple (defensive security, blue team tools)
-
-**All on one 32GB USB drive with persistence configured!**
-
-**Total Setup Time:** ~1-2 hours  
-**Boot Time:** ~30 seconds to Ventoy menu  
-**Persistence:** 8GB Kali + 4GB Purple + auto for others
-
-**You're ready to start learning!**
-
----
-
-## Appendix: Common BIOS Keys by Manufacturer
-
-| Manufacturer | BIOS Key | Boot Menu Key |
-|--------------|----------|---------------|
-| HP | ESC → F10 | ESC → F9 or F9 |
-| Dell | F2 | F12 |
-| Lenovo | F1 or F2 | F12 |
-| ASUS | F2 or DEL | F8 or ESC |
-| Acer | F2 or DEL | F12 |
-| MSI | DEL | F11 |
-| Gigabyte | DEL | F12 |
-| Samsung | F2 | F12 or ESC |
-| Toshiba | F2 | F12 |
-| Sony | F1, F2, or F3 | F11 |
-
-**General rule:** Look at screen during boot for message like "Press F2 for Setup"
 
 ---
 

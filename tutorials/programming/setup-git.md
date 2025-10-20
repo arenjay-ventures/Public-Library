@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Setup Git
-parent: Tutorials
-nav_order: 12
+parent: Programming
+nav_order: 4
 ---
 
 # Setup Git

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Setup Linux Ubuntu
-parent: Tutorials
-nav_order: 13
+parent: Linux
+nav_order: 2
 ---
 
 # Setup Linux Ubuntu

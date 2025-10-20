@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Homelab Media Server Jellyfin
-parent: Tutorials
-nav_order: 5
+parent: Hardware
+nav_order: 4
 ---
 
 # Homelab Media Server Jellyfin

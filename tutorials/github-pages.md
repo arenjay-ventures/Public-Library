@@ -2,7 +2,7 @@
 layout: default
 title: GitHub Pages
 parent: Tutorials
-nav_order: 3
+nav_order: 2
 ---
 
 # GitHub Pages - Professional Portfolio Setup

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Python Resources
-parent: Tutorials
-nav_order: 10
+parent: Programming
+nav_order: 1
 ---
 
 # Python Resources

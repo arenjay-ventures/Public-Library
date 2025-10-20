@@ -1,7 +1,7 @@
 ---
 layout: default
 title: AI Resources
-parent: Tutorials
+parent: Programming
 nav_order: 2
 ---
 
