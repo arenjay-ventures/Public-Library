@@ -2,7 +2,7 @@
 layout: default
 title: Building a Two-Site Portfolio with AI
 parent: Tutorials
-nav_order: 3
+nav_order: 4
 ---
 
 ### **Tutorial Information**
