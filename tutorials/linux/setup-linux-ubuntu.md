@@ -2,7 +2,7 @@
 layout: default
 title: Setup Linux Ubuntu
 parent: Linux
-nav_order: 5
+nav_order: 7
 ---
 
 # Setup Linux Ubuntu
